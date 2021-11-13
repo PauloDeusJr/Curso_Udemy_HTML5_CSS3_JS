@@ -84,10 +84,12 @@ main{
     display: inline-block;
     margin: 2px;
     text-transform: uppercase;
-    width: 300px;
 }
 
 .card p{
-    background: #ccc;
-    width: 300px;
+    background: rgb(75, 63, 63);
+    width: 275px;
+    padding: 10px;
+    margin-left: 5px;
+    color: white;
 }
