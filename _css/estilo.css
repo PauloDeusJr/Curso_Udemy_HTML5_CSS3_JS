@@ -11,6 +11,7 @@ body{
     height: 500px;
     background-position: right center;
     background-size: cover;
+    border-top: 1px solid transparent;
 }
 
 .hero-content{
@@ -21,13 +22,35 @@ body{
 
 .hero-content h1{
     text-transform: uppercase;
-    font-size: 46px;
+    font-size: 45px;
     text-shadow: 3px 3px 2px #333;
+}
+
+.hero nav ul{
+    text-align: right;
+    margin: 10px 20px 0 0;
 }
 
 .hero nav li{
     display: inline-block;
     list-style: none;
+    margin-left: 10px;
+    border: 1px solid white;
+}
+
+.hero nav a{
+    background: rgba(0, 0, 0, .2);
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+.hero nav a:hover{
+    background: rgba(0, 0, 0, .8);
 }
 
 main{
@@ -59,4 +82,12 @@ main{
 
 .card{
     display: inline-block;
+    margin: 2px;
+    text-transform: uppercase;
+    width: 300px;
+}
+
+.card p{
+    background: #ccc;
+    width: 300px;
 }
